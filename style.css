@@ -1,0 +1,31 @@
+
+.wrap {
+    margin: 0 auto;
+    max-width: 1150px;
+    position: relative;
+}
+#empty{
+
+    color:transparent;
+    /* border:1px solid #000; */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-weight:bold;
+    font-size: 8em;
+}
+
+#black {
+    // display: none;
+    position:absolute;
+    z-index:10;
+    // top: 7.28px;
+    // left:8px;
+    top: -127px;
+    width:0px;
+    overflow:hidden;
+    font-weight:bold;
+    font-size: 8em;
+    color:black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
